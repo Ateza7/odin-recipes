@@ -1,3 +1,7 @@
+body {
+    background: linear-gradient(0deg, rgb(248, 243, 172), rgb(243, 218, 133))
+}   
+
 * {
     font-family: Arial, sans-serif;
 }
@@ -6,14 +10,16 @@ h1 {
     text-align: center;
     font-weight: bold;
     padding: 0;
+    margin: 0;
+    margin-top: 25px;
 }
 
 .h1-underline {
     width: 115%;
     height: 1px;
-    margin-top: -22px;
     margin-left: -7.5%;
     background-color: rgb(83,79,193);
+    border-radius: 20px;
 }
 
 .h1-container { 
@@ -28,7 +34,6 @@ h2 {
     text-align: center;
     margin: 2em auto;
     max-width: fit-content;
-    background-color: white;
 }
 
 p {
@@ -64,11 +69,23 @@ img {
 
 .link {
     border: 2px solid rgb(83,79,193);
-    max-width: fit-content;
-    padding: 3px;
+    max-width: 200px;
+    padding: 5px;
+    text-align: center;
+    margin: 1rem auto;
+    border-radius: 10px;
+}
+
+.link:hover {
+    background-color: rgb(232, 178, 149);
 }
 
 .bottom-top-margin {
     margin-bottom: 100px;
     margin-top: 80px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
