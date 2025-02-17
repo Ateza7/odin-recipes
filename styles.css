@@ -4,6 +4,8 @@ body {
 
 * {
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
@@ -34,22 +36,17 @@ h2 {
     text-align: center;
     margin: 2em auto;
     max-width: fit-content;
+    padding: 0 10px
 }
 
 p {
     text-align: center;
     margin: 0 auto;
-    max-width: 60%;
+    max-width: 80%;
 }
 
 li {
-    max-width: 100%;
     margin: 1em 0;
-}
-
-ul, ol {
-    max-width: 25%;
-    margin: 0 auto;
 }
 
 ol {
@@ -88,4 +85,31 @@ img {
 a {
     text-decoration: none;
     color: black;
+}
+
+.description, .steps, .ingredients {
+    border: 1px solid rgb(83 79 193);
+    border-radius: 15px;
+}
+
+.description {
+    max-width: 75%;
+    margin: 20px auto;
+    padding-bottom: 2em;
+}
+
+.ingredients {
+    padding: 16px;
+    padding-left: 32px;
+    width:40%
+}
+
+.steps {
+    padding: 16px;
+    padding-left: 32px;
+    width:40%
+}
+.ingredients-steps {
+    width: 100%;
+    border: 1px solid black;
 }
