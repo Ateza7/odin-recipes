@@ -31,7 +31,7 @@ h2 {
     background-color: white;
 }
 
-p{
+p {
     text-align: center;
     margin: 0 auto;
     max-width: 60%;
@@ -60,4 +60,15 @@ ol {
 img {
     border-radius: 15px;
     border: 1px solid rgb(83, 79, 193);
+}
+
+.link {
+    border: 2px solid rgb(83,79,193);
+    max-width: fit-content;
+    padding: 3px;
+}
+
+.bottom-top-margin {
+    margin-bottom: 100px;
+    margin-top: 80px;
 }
