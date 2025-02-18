@@ -67,19 +67,23 @@ img {
 .link {
     border: 2px solid rgb(83,79,193);
     max-width: 200px;
-    padding: 5px;
+    padding: 10px 10px;
     text-align: center;
     margin: 1rem auto;
     border-radius: 10px;
+    display: block;
+    background-color: rgb(222, 147, 106)
 }
 
 .link:hover {
     background-color: rgb(232, 178, 149);
 }
 
-.bottom-top-margin {
+.recipe-to-home {
     margin-bottom: 100px;
     margin-top: 80px;
+    max-width: fit-content;
+    padding: 10px 30px
 }
 
 a {
