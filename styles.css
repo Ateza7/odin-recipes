@@ -53,15 +53,13 @@ ol {
     margin-bottom: 2em;
 }
 
-.img {
-    margin: 5em auto;
-    text-align: center;
-    border-radius: 50px;
-}
-
 img {
     border-radius: 15px;
     border: 1px solid rgb(83, 79, 193);
+    margin: 5em auto;
+    display: block;
+    width: 80%;
+    height: auto;
 }
 
 .link {
