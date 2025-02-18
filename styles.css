@@ -101,15 +101,16 @@ a {
 .ingredients {
     padding: 16px;
     padding-left: 32px;
-    width:40%
+    width:30%
 }
 
 .steps {
     padding: 16px;
     padding-left: 32px;
-    width:40%
+    width:30%
 }
 .ingredients-steps {
-    width: 100%;
-    border: 1px solid black;
+    margin-top: 5em;
+    display: flex;
+    justify-content: space-evenly;
 }
